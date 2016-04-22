@@ -1,0 +1,36 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif; /* changes the font */
+	background-image: url(images/japanese_cherry_trees.jpg); /* adds a bg image */
+	background-position: center center; /* centers the bg image */
+	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
+	background-attachment: fixed; /* makes the bg not move */
+	background-size: cover; /* lets the bg fill the entire body */
+	background-color: #000080; /* backup color if the img doesn't work/while it's loading */
+	margin: 0; /* removes all margins from the body */
+	display: table; /* allows the .container to be centered */
+}
+
+.container {
+	display: table-cell; /* allows the next 2 style rules to work */
+	text-align: center; /* centers the text */
+	vertical-align: middle; /* aligns .container in the middle of the page */
+}
+
+/* :active - link as it is actively being clicked on */
+/* :hover - link when you hover over it */
+/* :visited - link when you have already visited it */
+/* :link - link by itself */
+a:active, a:hover, a:visited, a:link {
+	text-decoration: none; /* in this case, removes default underline from the links */
+	color: #ffffff; /* changes font color to white */
+}
+
+a:hover {
+	font-weight: bold; /* makes font bold */
+	background-color: #cccccc; /* changes the bg color to gray */
+}

@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif; /* changes the font on the entire page */
+}
+
+.container {
+    width: 960px; /* creates a fixed width layout of 960px wide */
+    margin: 0 auto; /* removes margin from top/bottom, automatically  */
+}
+
+/* styles for header and navigation */
+
+.logo {
+    border-radius: 50%;
+}
+
+header, footer {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav a:active, nav a:hover, nav a:visited, nav a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    font-weight: bold;
+    background-color: #8EDFFF;
+}
+
+/* styles for main content */
+
+
+/* styles for footer */
+
+footer {
+    font-size: 10px;
+    padding: 5px 0;
+}
